@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: black;
+}
+img{
+    height: 250%;
+    width: 230px;
+    transition: all .4s
+    
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+div{
+    overflow: hidden;
+}
+form{
+    border-radius: 1em;
+    box-shadow: 0 0 3px crimson;
+    width:300px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: grey;
+div{
+    display: flex;
+    justify-content: space-between
+}    
+}
+
+.centrar{
+    text-align: center;
+}
